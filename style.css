@@ -1,1 +1,39 @@
-ughyif
+
+ body{
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+ }
+h1{
+    font-size: 50px;
+}
+.tomi-sokh{
+    color: rgb(38, 242, 19);
+}
+.half-site{
+    width: 40%;
+    float: left;
+    margin-left: 7%;
+    padding-left: 2%;
+}
+.never{
+    background-image: url("image/loow.png");
+    height: 500px;
+}
+.button-link{
+  
+}
+.button-link{
+    color: aliceblue;
+    background: #e2b211;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    padding: 10PX 30PX;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: all linear 0.3s;
+}
+.button-link:hover{
+    opacity: 0.9;
+    color: black;
+    border: 3px solid #fff;
+}

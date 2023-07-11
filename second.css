@@ -1,0 +1,89 @@
+
+body{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+section{
+    height: 700px;
+}
+.left-site{
+    float: left;
+    width: 40%;
+    margin-left: 2%;
+    padding-left: 2%;
+}
+
+.icon{
+    margin: 30px;
+    width: 150px;
+    height: 60px;
+    color: rgb(4, 4, 240);
+}
+.welcome-to{
+    font-size: 45px;
+}
+.email-div{
+    border: 1px solid #000;
+    width: 500px;
+    height: 65px;
+}
+input{
+    width: 370px;
+    height: 25px;
+    margin-left: 30px;
+    margin-top: 20px;
+    border-style: none;
+}
+
+.password-div{
+    border: 1px solid #000;
+    width: 500px;
+    height: 65px;
+}
+
+.show-pass{
+    margin-left: 30px;
+    border-style: hidden;
+}
+
+.right-site{
+    float: left;
+    width: 40%;
+    margin-left: 7%;
+    padding-left: 2%;
+}
+.picture{
+    width: 100%;
+    height: 700px;
+    margin-left: 170px;
+}
+
+.right-site ul{
+    list-style: none;
+}
+li{
+    float: left;
+    padding-right: 20px;
+}
+ul li:nth-child(4){
+    border-right: 2px solid #000;
+    display: block;
+}
+.ffff{
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 600;
+    border: #000 1px solid;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: all linear 0.5s;
+    background:  aliceblue;
+    color: #000;
+    
+}
+ul li .ffff:hover{
+    background: #1b0ffc;
+    color: #ffff;
+    opacity: 0.6;
+    font-weight: bold;
+}
