@@ -3,8 +3,10 @@ body{
     margin: 0;
     font-family: 'Open Sans', sans-serif;
 }
-section{
-    height: 900px;
+.first-box{
+    margin: 0;
+    background: #83e3ef;
+    height:1000px;
     font-family: 'Open Sans', sans-serif;
 }
 .left-site{
@@ -109,13 +111,15 @@ ul li .ffff:hover{
     font-weight: bold;
 }
 .ttt{
+    font-weight: 600;
+    color: #1b0ffc;
     margin-top: 50px;
     margin-bottom: 20px;
 }
 .singin-button{
     color: #ffff;
     background: #5080f1;
-    margin-bottom: 40px;
+    margin-bottom: 70px;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -161,7 +165,6 @@ ul li .ffff:hover{
 .join-button{
     background: #ffff;
     border: 1px solid #818080;
-    margin-bottom: 30px;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -174,4 +177,10 @@ ul li .ffff:hover{
 }
 .join-button:hover{
     background: rgb(219, 220, 221);
+}
+/** first-box ends **/
+
+.secound-box{
+    height: 400px;
+    background: #e1d8d8;
 }
