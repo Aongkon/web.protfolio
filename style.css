@@ -1,39 +1,127 @@
-
- body{
-    font-family: 'Open Sans', sans-serif;
+*{
     margin: 0;
- }
-h1{
-    font-size: 50px;
+    border: 0;
 }
-.tomi-sokh{
-    color: rgb(38, 242, 19);
+
+body{
+    font-family: 'Lato', sans-serif;
 }
-.half-site{
-    width: 40%;
-    float: left;
-    margin-left: 7%;
-    padding-left: 2%;
+.first{
+    width: 100%;
+    height: 51px;
+    background: #000;
+    padding-left: 30px;
 }
-.never{
-    background-image: url("image/loow.png");
-    height: 500px;
-}
-.button-link{
-  
-}
-.button-link{
-    color: aliceblue;
-    background: #e2b211;
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 700;
-    padding: 10PX 30PX;
+.border{
+    display: block;
+    border-left: 2px solid #3fc919;
+    color:#ffffff;
     text-decoration: none;
-    border-radius: 30px;
-    transition: all linear 0.3s;
+    list-style: none;
+    float: left;
+    font-family: sans-serif;
+    padding-top: 15px;
+    padding-right: 20px;
+   padding-left: 30px;
+ }
+.tota{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 16px;
+    padding-bottom: 14px;
+    background: #fff;
+    list-style: none;
+    float: left;
+   
 }
-.button-link:hover{
-    opacity: 0.9;
-    color: black;
-    border: 3px solid #fff;
+/** first ends **/
+
+.menubar{
+    width: 100%;
+    height: 80px;
 }
+.logo-set{
+     height: 80px;
+     width: 10%;
+     display: flex;
+     padding-left: 60px;
+     font-size: 20px;
+     float: left;
+}
+.first-image{
+    width: 33px;
+    height: 33px;
+    padding-top: 23px;
+}
+.first-pera{
+    padding-left: 7px;
+    padding-top: 28px;
+}
+.domain{
+    
+    font-weight: 700;
+
+}
+.mid-site{
+    width: 60%;
+    padding-left: 25px;
+    float: left;
+    height: 80px;
+}
+.mid-site ul{
+    margin-left: 30px;
+}
+.mid-site ul li{
+    font-size: 14px;
+    list-style: none;
+    float: left;
+    padding-left: 20px;
+    line-height: 78px;
+}
+.mid-site ul:first-child li{
+    
+}
+
+.login-site{
+    width: 22%;
+    float: left;
+    height: 80px;
+}
+.login-site ul{
+    margin-left: 10px;
+}
+.login-site ul li{
+    list-style: none;
+    float: left;
+    padding-left: 40px;
+    line-height: 75px;
+}
+.login-site ul li:first-child{
+    padding-left: 0px;
+}
+.login-site ul li:nth-child(2){
+    line-height: 85px;
+}
+/** manubar ends **/
+
+.background-image{
+    margin-left: 27px;
+    width: 100%;
+    height: 500px;
+    background-image: url(image/yyytreT.jpg);
+}
+.write-part{
+    width: 60%;
+    height: 500px;
+    background: #f64444;
+    padding-left: 50px;
+    padding-top: 60px;
+}
+.para-one{}
+.hadding-one{}
+.para-two{}
+.under-line-one{}
+.angkor-tag-one{}
+.humi-acci{}
+.para-three{}
+.para-four{}
