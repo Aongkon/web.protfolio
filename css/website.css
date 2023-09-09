@@ -435,6 +435,63 @@ a{
     padding-top: 10px;
 }
 /* right */
+/** services-class ends **/
+.protfolio-bg{
+    background: #e85050;
+}
+.protfolio-class{
+    background: #44c427;
+    height: 662px;
+}
+.protfolio-class .protfolio-up{
+    height: 110px;
+}
+.protfolio-up h3{
+    color: #353535;
+    font-size: 24px;
+    font-weight: 400px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+}
+.protfolio-up .image{
+    padding-left: 403px;
+    padding-bottom: 50px;
+}
+.protfolio-class .protfolio-dwon{
+    height: 552px;
+    background: #b935c5;
+}
+.protfolio-dwon-first{
+    width: 220px;
+    height: 542px;
+    background: #2d44da;
+    float: left;
+    margin-left: 10px;
+}
+.protfolio-dwon-second{   
+    width: 220px;
+    height: 542px;
+    background: #32b9c8;
+    float: left;
+    margin-left: 20px;
+}
+.protfolio-dwon-third{
+    width: 220px;
+    height: 542px;
+    background: #11d684;
+    float: left;
+    margin-left: 20px;
+}
+.protfolio-dwon-fourth{
+    width: 220px;
+    height: 542px;
+    background: #edd32a;
+    float: left;
+    margin-left: 20px;
+}
+.protfolio-dwon img{
+   
+}
 
-.services-dwon{}
-.services-dwon{}
