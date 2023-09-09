@@ -7,7 +7,7 @@
     font-family: sans-serif;
     width: 100%;
     height: 1000px;
-    background: #ffff;
+    background: #fafafa;
 }
 .first{
     width: 100%;
@@ -419,3 +419,105 @@
     padding-left: 40px;
     padding-top: 50px;
 }
+/** ander-holl ends **/
+
+.sorom-lage{
+    width: 100%;
+    height: 600px;
+    font-family: 'Lato', sans-serif;
+}
+.oporerta{
+    width: 100%;
+    height: 200px;
+}
+.heard-to-beat{
+    padding-top: 30px;
+    color: #000000;
+    text-align: center;
+    font-size: 35px;
+}
+.unlike{
+    color: #666666;
+    text-align: center;
+    font-weight: 300;
+    font-size: 27px;
+    padding-left: 100px;
+    padding-right: 100px;
+
+}
+.nicherta{
+    width: 100%;
+    height: 400px;
+   
+}
+.nicher-bam{
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+.nicher-bam-one{
+    width: 80%;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 1px 1px 25px  black;
+}
+.span-one{
+    width: 163px;
+    height: 150PX;
+    float: left;
+}
+
+.image-kotop{
+    width: 150px;
+    height: 150PX;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.span-two{
+    width: 342px;
+    height: 150PX;
+    float: left;
+}
+.page{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.include-a{
+   
+}
+.nicher-bam-two{
+    width: 80%;
+    height: 150px;
+    margin-left: 100px;
+    margin-top: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 1px 1px 25px  black;
+}
+.nicher-dan{
+    width: 50%;
+    height: 400px;
+    float: left;
+}
+.nicher-dan-one{
+    width: 80%;
+    height: 150px;
+    margin-left: 30px;
+    margin-top: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 1px 1px 25px  black;
+}
+.nicher-dan-two{
+    width: 80%;
+    height: 150px;
+    margin-left: 30px;
+    margin-top: 40px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    box-shadow: 1px 1px 15px  black; 
+}
+/** shorom-lage ends **/
