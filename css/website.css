@@ -437,10 +437,10 @@ a{
 /* right */
 /** services-class ends **/
 .protfolio-bg{
-    background: #e85050;
+    background: #fff;
 }
 .protfolio-class{
-    background: #44c427;
+    background: #fff;
     height: 662px;
 }
 .protfolio-class .protfolio-up{
@@ -461,37 +461,392 @@ a{
 }
 .protfolio-class .protfolio-dwon{
     height: 552px;
-    background: #b935c5;
+    background: #fff;
 }
 .protfolio-dwon-first{
     width: 220px;
     height: 542px;
-    background: #2d44da;
     float: left;
     margin-left: 10px;
 }
+.protfolio-dwon-first .image-one{
+    width: 220px;
+    height: 220px;
+    position: relative;
+    margin-bottom: 22px;
+    overflow: hidden;
+}
+.image-one .soro-one{
+    width: 100%;
+    height: 100%;
+
+}
+.image-one .hover-part-one{
+    width: 220px;
+    height: 220px;
+    background: rgba(0, 0, 0,60%);
+    top: 0;
+    left: -100%;
+    position: absolute;
+    transition: all linear 0.5s;
+}
+.aunder-hover-circle-one{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: #5bc5f4;
+    margin: 90px ;
+}
+.aunder-hover-circle-one:hover{
+    background: #000;
+}
+.image-odvhot{
+    padding: 11px 10px;
+}
+.image-one:hover .hover-part-one{
+    left: 0;
+}
+.protfolio-dwon-first .image-five{
+    width: 220px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.aunder-hover-circle-two{
+    height: 40px;
+    width: 40px;
+    background: #5bc5f4;
+    margin: 0 auto;
+    border-radius: 50%;
+    margin: 130px 90px;
+}
+.image-five .hover-part-two{
+    width: 220px;
+    height: 300px;
+    background: rgba(0, 0, 0,60%);
+    top: 0;
+    left:-100%;
+    position: absolute;
+    transition: all linear 0.5s;
+    
+}
+.image-five:hover .hover-part-two{
+    left: 0;
+}
+/* protfolio-dwon-first ends */
+
 .protfolio-dwon-second{   
     width: 220px;
     height: 542px;
-    background: #32b9c8;
     float: left;
     margin-left: 20px;
 }
+.protfolio-dwon-second .image-two{
+    width: 220px;
+    height: 300px;
+    position: relative;
+    margin-bottom: 22px;
+    overflow: hidden;
+}
+.image-two .hover-part-three{
+    width: 220px;
+    height: 300px;
+    background: rgba(0, 0, 0,60%);
+    top: 0;
+    left: -100%;
+    position: absolute;
+    transition: all linear 0.5s;
+}
+.image-two:hover .hover-part-three{
+    left: 0;
+}
+.protfolio-dwon-second .image-six{
+    width: 220px;
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+}
+.image-six .hover-part-four{
+    width: 220px;
+    height: 220px;
+    background: rgba(0, 0, 0,60%);
+    top: 0;
+    left: -100%;
+    position: absolute;
+    transition: all linear 0.5s;
+}
+.image-six:hover .hover-part-four{
+    left: 0;
+}
+/* protfolio-dwon-second ends*/
+
 .protfolio-dwon-third{
     width: 220px;
     height: 542px;
-    background: #11d684;
     float: left;
     margin-left: 20px;
 }
+.protfolio-dwon-third .image-three{
+    width: 220px;
+    height: 220px;
+    position: relative;
+    margin-bottom: 22px;
+    overflow: hidden;
+}
+.image-three .hover-part-five{
+    width: 220px;
+    height: 220px;
+    background: rgba(0, 0, 0,60%);
+    top: 0;
+    left: -100%;
+    position: absolute;
+    transition: all linear 0.5s;
+}
+.image-three:hover .hover-part-five{
+    left: 0;
+}
+.protfolio-dwon-third .image-seven{
+    width: 220px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.image-seven .hover-part-six{
+    width: 220px;
+    height: 300px;
+    background: rgba(0, 0, 0,60%);
+    top: 0;
+    left: -100%;
+    position: absolute;
+    transition: all linear 0.5s;
+}
+.image-seven:hover .hover-part-six{
+    left: 0;
+}
+/* protfolio-dwon-third ends */
 .protfolio-dwon-fourth{
     width: 220px;
     height: 542px;
-    background: #edd32a;
     float: left;
     margin-left: 20px;
 }
-.protfolio-dwon img{
-   
+.protfolio-dwon-fourth .image-four{
+    width: 220px;
+    height: 300px;
+    position: relative;
+    margin-bottom: 22px;
+    overflow: hidden;
+}
+.image-four .hover-part-seven{
+    width: 220px;
+    height: 300px;
+    background: rgba(0, 0, 0,60%);
+    top: 0;
+    left: -100%;
+    position: absolute;
+    transition: all linear 0.5s;
+}
+.image-four:hover .hover-part-seven{
+    left: 0;
 }
 
+.protfolio-dwon-fourth .image-eight{
+    width: 220px;
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+}
+.image-eight .hover-part-eight{
+    width: 220px;
+    height: 220px;
+    background: rgba(0, 0, 0,60%);
+    top: 0;
+    left: -100%;
+    position: absolute;
+    transition: all linear 0.5s;
+}
+.image-eight:hover .hover-part-eight{
+    left: 0;
+}
+/* protfolio-dwon-fourth ends */
+
+.our-team{
+    height: 115px;
+}
+.our-team h3{
+    color: #353535;
+    font-size: 24px;
+    font-weight: 400px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 50px;
+}
+.our-team .image{
+    padding-left: 430px;
+    padding-bottom: 50px;
+}
+.member-bio{
+    height: 330px;
+}
+.member-bio .bio-one{
+    width: 220px;
+    height: 330px;
+    float: left;
+    margin-left: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.bio-one .member-one{
+    position: absolute;
+}
+.bio-one .hover-bio-one{
+    width: 80px;
+    height: 270px;
+    background: rgba(0, 0, 0,60%);
+    position: absolute;
+    top: 0;
+    right: -80px;
+    transition: all linear 0.5s;
+}
+.bio-one:hover .hover-bio-one{
+    right: 0;
+}
+.hover-bio-one ul{
+    margin-top: 35px;
+}
+.hover-bio-one ul li{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px #ffffff solid;
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+.hover-bio-one ul li:hover{
+    background: #5bc5f4;
+    border: none;
+}
+.hover-bio-one ul li a i{
+    color: #ffffff;
+    padding-top: 12px;
+    padding-left: 15px;
+}
+.bio-one .member-one h3{
+    color: #353535;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    line-height: 24px;
+    padding-left: 72px;
+}
+/* bio-one ends */
+
+.member-bio .bio-two{
+    width: 220px;
+    height: 330px;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.bio-two .member-two{
+    position: absolute;
+}
+.bio-two .hover-bio-one{
+    width: 80px;
+    height: 270px;
+    background: rgba(0, 0, 0,60%);
+    position: absolute;
+    top: 0;
+    right: -80px;
+    transition: all linear 0.5s;
+}
+.bio-two:hover .hover-bio-one{
+    right: 0;
+}
+.bio-two .member-two h3{
+    color: #353535;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    line-height: 24px;
+    padding-left: 75px;
+}
+/* bio-two ends */
+
+.member-bio .bio-three{
+    width: 220px;
+    height: 330px;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.bio-three .member-three{
+    position: absolute;
+}
+.bio-three .hover-bio-one{
+    width: 80px;
+    height: 270px;
+    background: rgba(0, 0, 0,60%);
+    position: absolute;
+    top: 0;
+    right: -80px;
+    transition: all linear 0.5s;
+}
+.bio-three:hover .hover-bio-one{
+    right: 0;
+}
+.bio-three .member-three h3{
+    color: #353535;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    line-height: 24px;
+    padding-left: 74px;
+}
+/* bio-three ends */
+
+.member-bio .bio-four{
+    width: 220px;
+    height: 330px;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.bio-four .member-four{
+    position: absolute;
+}
+.bio-four .hover-bio-one{
+    width: 80px;
+    height: 270px;
+    background: rgba(0, 0, 0,60%);
+    position: absolute;
+    top: 0;
+    right: -80px;
+    transition: all linear 0.5s;
+}
+.bio-four:hover .hover-bio-one{
+    right: 0;
+}
+.bio-four .member-four h3{
+    color: #353535;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald', sans-serif;
+    line-height: 24px;
+    padding-left: 69px;
+}
+/* bio-four ends */
+
+.member-bio p{
+    color: #353535;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 75px;
+}
+/** member-bio ends **/
