@@ -135,7 +135,7 @@ img{
 }
 .dubble-coulum .first-coulum h3{
     color: #215a6d;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
     padding-top: 75px;
@@ -143,7 +143,7 @@ img{
 }
 .dubble-coulum .first-coulum h2{
     color: #215a6d;
-    font-size: 48px;
+    font-size: 44px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     margin-top: -15px;
@@ -315,4 +315,43 @@ img{
 .notice-second img{
     margin-top: 45px;
     margin-left: 20px;
+}
+/** notice-bord ends **/
+
+.workes-bg{
+    background: #e360da;
+}
+.workes-bg .workes-type{
+    height: 430px;
+    background: #13b32b;
+    display: flex;
+}
+.workes-bg .workes-type .news-events{
+    width: 302px;
+    height: 430px;
+    background: #30bbd7;
+}
+.workes-bg .workes-type .news-events h2{
+    font-size: 29px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #215a6d;
+    border-bottom: #c10a11 solid 5px;
+}
+.workes-bg .workes-type .news-events h2::after{
+    content: '';
+    position: absolute;
+    
+}
+.workes-bg .workes-type .medicle-services{
+    width: 302px;
+    height: 430px;
+    background: #f1d93b;
+    margin-left: 30px;
+}
+.workes-bg .workes-type .photo-gallery{
+    width: 304px;
+    height: 430px;
+    background: #4514af;
+    margin-left: 30px;
 }

@@ -1144,8 +1144,6 @@ a{
 }
 .main-content .content-fourth .dwon-one .aaa{
     padding-bottom: 15px;
-    width: 90px;
-    height: 90px;
 }
 .main-content .content-fourth .dwon-two{
     width: 90px;
@@ -1165,7 +1163,7 @@ a{
 .main-content .content-fourth .dwon-three .eee{
     padding-bottom: 15px;
 }
-
+/** last-bg ends **/
 
 .finish-bg{
     background: #555555;
@@ -1185,3 +1183,4 @@ a{
 .finish-bg .finish-content p span{
     color: #5bc5f4;
 }
+/** finish-bg ends **/
