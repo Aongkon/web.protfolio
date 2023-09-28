@@ -85,3 +85,57 @@
 }
 
 
+.first-vew{
+    width: 300px;
+    height: 300px;
+    background: #fff;
+    margin: 100px;
+    position: relative;
+}
+.first-vew .vew-looo{
+    width: 78px;
+    height: 78px;
+    background: #f1f1f1;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin: 0 auto;;
+    position: absolute;
+    top: -38px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.first-vew .vew-looo img{
+    background: #f1f1f1;
+    margin:  2px 2px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+.vew-nisi{
+    width: 100%;
+    height: 270px;
+    background: #f1f1f1;
+}
+.vew-nisi p{
+    color: #000;
+    padding-top: 70px;
+    text-align: center;
+}
+
+.ratul {
+    width: 100px;
+    height: 100px;
+    background: #7dedfe;
+    margin: 100px;
+    position: relative;
+}
+.ratul .ratul-ttt{
+    width: 40px;
+    height: 40px;
+    background: #7dedfe;
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    transform: translateX(-50%) rotate(45deg);
+}
