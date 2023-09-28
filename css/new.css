@@ -319,39 +319,333 @@ img{
 /** notice-bord ends **/
 
 .workes-bg{
-    background: #e360da;
+    background: #ffffff;
 }
 .workes-bg .workes-type{
     height: 430px;
-    background: #13b32b;
     display: flex;
 }
 .workes-bg .workes-type .news-events{
     width: 302px;
     height: 430px;
-    background: #30bbd7;
+    box-sizing: border-box;
 }
 .workes-bg .workes-type .news-events h2{
     font-size: 29px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
     color: #215a6d;
-    border-bottom: #c10a11 solid 5px;
+    border-bottom: #dfece6 solid 2px;
+    padding-bottom: 5px;
+    padding-top: 60px;
+    position: relative;
 }
 .workes-bg .workes-type .news-events h2::after{
     content: '';
     position: absolute;
-    
+    width: 60px;
+    height: 3px;
+    background: #ae1010;
+    top: 104px;
+    left: 0;
+
 }
+.workes-bg .workes-type .news-events h3{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #3ca2a2;
+    padding-top: 40px;
+
+}
+.workes-bg .workes-type .news-events p{
+    font-size: 12px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #3ca2a2;
+    line-height: 21px;
+    padding-bottom: 30px;
+    padding-top: 7px;
+    border-bottom: solid 2px #dfece6;
+
+}
+.workes-bg .workes-type .news-events h4{
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #3ca2a2;
+    padding-top: 27px;
+}
+.workes-bg .workes-type .news-events .page{
+    border-bottom: none;
+    padding-bottom: none;
+    padding-bottom: 40px;
+}
+.workes-bg .workes-type .news-events a i{
+    color: #c70811;
+}
+.workes-bg .workes-type .news-events a span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #3ca2a2;
+    padding-left: 7px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* news-events ends */
+
+
 .workes-bg .workes-type .medicle-services{
     width: 302px;
     height: 430px;
-    background: #f1d93b;
     margin-left: 30px;
 }
+.workes-bg .workes-type .medicle-services h2{
+    font-size: 29px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #215a6d;
+    border-bottom: #dfece6 solid 2px;
+    padding-bottom: 5px;
+    padding-top: 60px;
+    position: relative;
+}
+.workes-bg .workes-type .medicle-services h2::after{
+    content: '';
+    position: absolute;
+    background: #d61010;
+    width: 60px;
+    height: 3px;
+    top: 104px;
+    left: 0;
+}
+.workes-bg .workes-type .medicle-services ul{
+    padding-top: 40px;
+    padding-bottom: 52px;
+}
+.workes-bg .workes-type .medicle-services ul li{
+    padding-bottom: 15px;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+  
+}
+.workes-bg .workes-type .medicle-services ul li a i{
+    color: #c70811;
+    float: left;
+    padding-right: 8px;
+}
+.workes-bg .workes-type .medicle-services ul li a{
+    color:  #215a6d;
+    transition: all linear 0.3s;
+}
+.workes-bg .workes-type .medicle-services ul li a:hover{
+    color: #fbf862;
+}
+.workes-bg .workes-type .medicle-services .last-child{
+    color: #c70811;
+}
+.workes-bg .workes-type .medicle-services a span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #3ca2a2;
+    padding-left: 7px;
+    font-family: 'Open Sans', sans-serif;
+}
+/** medicle-services ends **/
+
 .workes-bg .workes-type .photo-gallery{
-    width: 304px;
+    width: 306px;
     height: 430px;
-    background: #4514af;
     margin-left: 30px;
+}
+.workes-bg .workes-type .photo-gallery .media{
+    width: 100%;
+    height: 330px;
+    margin-bottom: 65px;
+}
+.workes-bg .workes-type .photo-gallery .head{
+    width: 306px;
+    height: 130px;
+}
+.workes-bg .workes-type .photo-gallery .head h2{
+    font-size: 29px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #215a6d;
+    border-bottom: #dfece6 solid 2px;
+    padding-bottom: 5px;
+    padding-top: 60px;
+    position: relative;
+}
+.workes-bg .workes-type .photo-gallery .head h2::after{
+    content: '';
+    position: absolute;
+    background: #d61010;
+    width: 60px;
+    height: 3px;
+    top: 104px;
+    left: 0;
+}
+.workes-bg .workes-type .photo-gallery .photo-one{
+    width: 135px;
+    height: 200px;
+    float: left;
+   
+}
+.workes-bg .workes-type .photo-gallery img{
+    
+}
+.workes-bg .workes-type .photo-gallery .photo-one .kkkm{
+    padding-bottom: 15px;
+}
+.workes-bg .workes-type .photo-gallery .photo-two{
+    width: 135px;
+    height: 200px;
+    float: left;
+    margin-left: 32px;
+}
+.workes-bg .workes-type .photo-gallery .photo-two .bbbb{
+    padding-bottom: 15px;
+}
+.workes-bg .workes-type .photo-gallery .last-child{
+    color: #c70811;
+}
+.workes-bg .workes-type .photo-gallery a span{
+    font-size: 16px;
+    font-weight: 400;
+    color: #3ca2a2;
+    padding-left: 7px;
+    font-family: 'Open Sans', sans-serif;
+}
+/* photo-gallery ends */
+/** workes-type ends **/
+
+.doctors-bg{
+    background: #ffffff;
+}
+.doctors-bg .our-doctors{
+    height: 500px;
+}
+.doctors-bg .our-doctors .head-line{
+    height: 150px;
+    width: 970px;
+}
+.doctors-bg .our-doctors .head-line h2{
+    font-size: 29px;
+    font-weight: 600;
+    font-family: 'Open Sans', sans-serif;
+    color: #215a6d;
+    border-bottom: #dfece6 solid 2px;
+    padding-bottom: 8px;
+    padding-top: 75px;
+    position: relative;
+}
+.doctors-bg .our-doctors .head-line h2::after{
+    content: '';
+    position: absolute;
+    background: #d61010;
+    width: 60px;
+    height: 3px;
+    top: 120px;
+    left: 0;
+}
+.doctors-bg .our-doctors .doctor-bio{
+    width: 303px;
+    height: 350px;
+    float: left;
+}
+.doctors-bg .our-doctors .doctor-bio img{
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
+.doctors-bg .our-doctors .doctor-bio h3{
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: #215a6d;
+    padding-bottom: 3px;
+}
+.doctors-bg .our-doctors .doctor-bio h4{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #215a6d;
+    padding-left: 70px;
+    padding-bottom: 3px;
+}
+.doctors-bg .our-doctors .doctor-bio p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #215a6d;
+}
+/* doctors-bio ends */
+
+
+.doctors-bg .our-doctors .doctor-bis{
+    width: 303px;
+    height: 350px;
+    float: left;
+    padding-left: 30px;
+}
+.doctors-bg .our-doctors .doctor-bis img{
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
+.doctors-bg .our-doctors .doctor-bis h3{
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: #215a6d;
+    padding-bottom: 3px;
+}
+.doctors-bg .our-doctors .doctor-bis h4{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #215a6d;
+    padding-left: 70px;
+    padding-bottom: 3px;
+}
+.doctors-bg .our-doctors .doctor-bis p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #215a6d;
+}
+/* doctors-bis ends */
+
+.doctors-bg .our-doctors .doctor-bitla{
+    width: 304px;
+    height: 350px;
+    float: left;
+    padding-left: 30px;
+}
+.doctors-bg .our-doctors .doctor-bitla img{
+    padding-top: 30px;
+    padding-bottom: 10px;
+
+}
+.doctors-bg .our-doctors .doctor-bitla h3{
+    font-size: 26px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    color: #215a6d;
+    padding-bottom: 3px;
+}
+.doctors-bg .our-doctors .doctor-bitla h4{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #215a6d;
+    padding-left: 70px;
+    padding-bottom: 3px;
+}
+.doctors-bg .our-doctors .doctor-bitla p{
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    color: #215a6d;
 }
