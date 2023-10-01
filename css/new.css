@@ -699,6 +699,10 @@ img{
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
     color: #fff;
+    transition: all linear 0.4s;
+}
+.dwon-bg .dwon-logo .other-site .navigation ul li a:hover{
+    color: #65fbf6;
 }
 .dwon-bg .dwon-logo .other-site .navigation ul li a i{
     padding-right: 5px;
@@ -731,7 +735,10 @@ img{
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     padding-top: 14px;
-
+   transition: all linear 0.4s;
+}
+.dwon-bg .dwon-logo .other-site .services ul li a:hover{
+    color: #65fbf6;
 }
 .dwon-bg .dwon-logo .other-site .services ul li a i{
     padding-right: 5px;
@@ -765,7 +772,10 @@ img{
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     padding-top: 14px;
-
+    transition: all linear 0.4s;
+}
+.dwon-bg .dwon-logo .other-site .training ul li a:hover{
+    color: #65fbf6;
 }
 .dwon-bg .dwon-logo .other-site .training ul li a i{
     padding-right: 5px;
@@ -798,7 +808,10 @@ img{
     font-family: 'Open Sans', sans-serif;
     color: #fff;
     padding-top: 14px;
-
+    transition: all linear 0.4s;
+}
+.dwon-bg .dwon-logo .other-site .contect ul li a:hover{
+    color: #65fbf6;
 }
 .dwon-bg .dwon-logo .other-site .contect ul li a i{
     padding-right: 5px;
