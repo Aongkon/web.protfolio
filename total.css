@@ -139,3 +139,21 @@
     left: 50%;
     transform: translateX(-50%) rotate(45deg);
 }
+
+
+
+.icon-bg .icon-bar .icon-one{
+    height: 340px;
+    width: 320px;
+    background: #2e067e;
+}
+.icon-bg .icon-bar .icoone{
+    height: 340px;
+    width: 320px;
+    background: #d4b21b;
+}
+.icon-bg .icon-bar .icon-one{
+    height: 340px;
+    width: 320px;
+    background: #898295;
+}
