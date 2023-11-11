@@ -157,3 +157,23 @@
     width: 320px;
     background: #898295;
 }
+
+.tryanggle{
+    width: 400px;
+    height: 200px;
+    background: #5bf2f7;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    position: relative;
+}
+
+.tryanggle::after{
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    border-top: 30px solid red;
+    border-right: 30px solid transparent;
+    bottom: -30px;
+    left: 50px;
+  }

@@ -43,7 +43,6 @@ img{
     float: right;
     display: flex;
     line-height: 60px;
-
 }
 .navigation-bg .navigation-bar ul li a{
     color: #252525;
@@ -349,13 +348,16 @@ img{
     background: none;
     border:1px solid #f1f1f1;
     margin-top: 20px;
-    color: #ffffffff;
+    color: rgb(251, 248, 248);
     font-size: 16px;
     font-weight: 500;
     padding-left: 20px;
     padding-right: 20px;
     box-sizing: border-box;
     border-radius: 4px;
+}
+.last-bg .last-site .last-first .form-text form .fields:focus{
+    color: #15a4fa;
 }
 .last-bg .last-site .last-first .form-text textarea{
     width: 100%;
