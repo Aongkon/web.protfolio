@@ -1,0 +1,867 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    vertical-align: middle;
+}
+.full-wrapper{
+    width: 100%;
+}
+.wrapper{
+    width: 970px;
+    margin: 0 auto;
+}
+/** common css ends **/
+.welcome-bg{
+    background: #18d1db;
+}
+.welcome-bg .welcome{
+    height: 40px;
+    position: relative;
+}
+.welcome-bg .welcome h3{
+    color: #ffff;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 40px;
+}
+.welcome-bg .welcome ul{
+    position: absolute;
+    top: 0px;
+    right: 0;
+    display: flex;
+    line-height: 40px;
+}
+.welcome-bg .welcome ul li{
+    padding-left: 20px;
+}
+.welcome-bg .welcome ul li a i{
+    color: #ffff;
+    transition: all linear 0.4s;
+}
+.welcome-bg .welcome ul li a i:hover{
+    color: rgb(99, 99, 99);
+}
+/** welcome-bg ends **/
+.manu-bg{
+    background: #ffff;
+}
+.manu-bg .manu-bar{
+    height: 80px;
+    display: flex;
+}
+.manu-bg .manu-bar .logo{
+    width: 300px;
+    height: 80px;
+}
+.manu-bg .manu-bar .logo h2{
+    color: #ffc155;
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 80px;
+    text-transform: capitalize;
+}
+.manu-bg .manu-bar .manu{
+    width: 670px;
+    height: 80px;
+}
+.manu-bg .manu-bar .manu ul{
+    float: right;
+    display: flex;
+    line-height: 80px;
+}
+.manu-bg .manu-bar .manu ul li{
+   padding-left: 2px;
+}
+.manu-bg .manu-bar .manu ul li a{
+    padding: 10px 15px;
+    color: blue;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    transition: all linear 0.4s;
+}
+.manu-bg .manu-bar .manu ul li a:hover{
+    background: #ffc155;
+    color: #ffff;
+}
+.manu-bg .manu-bar .manu ul li:first-child a{
+    background: #ffc155;
+    color: #ffff;
+}
+/** manu-bg ends **/
+.banner-bg{
+    background-image: url(../image/another-image/image-10.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-bg .overlay{
+    background: rgba(0, 0, 0,30%); 
+    height: 600px;
+    width: 100%;
+    position: relative;
+}
+.banner-bg .overlay .position-one i{
+    border: 1px solid #ffff;
+    color: aliceblue;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transition: all linear 0.4s;
+}
+.banner-bg .overlay .position-two i{
+    border: 1px solid #ffff;
+    color: aliceblue;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    position: absolute;
+    left: 30px;
+    top: 50%;
+    transition: all linear 0.4s;
+}
+.banner-bg .overlay a i:hover{
+    background: #fff;
+    color: #000;
+}
+.banner-bg .overlay .content{
+    width: 970px;
+    height: 600px;
+}
+.banner-bg .overlay .content h2 {
+    text-align: center;
+    color: #ffc155;
+    font-family: 'Pacifico', cursive;
+    font-size: 60px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-top: 240px;
+}
+.banner-bg .overlay .content .after{
+    width: 8px;
+    height: 8px;
+    background: #01cde0;
+    margin-left: 49%;
+    position: relative;
+    margin-bottom: 40px;
+}
+.banner-bg .overlay .content .after::after{
+    position: absolute;
+    content: '';
+    width: 90px;
+    height: 2px;
+    background: #ecf846;
+    left: 20px;
+    top: 3px;
+}
+.banner-bg .overlay .content .after::before{
+    position: absolute;
+    content: '';
+    width: 90px;
+    height: 2px;
+    background: #ecf846;
+    right: 20px;
+    top: 3px;
+}
+.banner-bg .overlay .content h4{
+    color: #ffff;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'lato', sans-serif;
+    font-style: italic;
+}
+/** banner-bg ends **/
+
+.fourth-part-bg{
+    background: #ffff;
+}
+.fourth-part-bg .fourth-part-containt{
+    height: 400px;
+}
+.fourth-part-bg .fourth-part-containt .header{
+    height: 150px;
+    width: 100%;
+}
+.fourth-part-bg .fourth-part-containt .header h2{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 22px;
+    font-family: sans-serif;
+    color: rgb(200, 154, 37);
+}
+.fourth-part-bg .fourth-part-containt .header p{
+    text-align: center;
+    font-size: 13px;
+    font-family: 'Oswald', sans-serif;
+    color: rgb(6, 210, 221);
+}
+.fourth-part-bg .fourth-part-containt .fotter{
+    height: 250px;
+    width: 100%;
+    display: flex;
+}
+.fourth-part-bg .fourth-part-containt .fotter .fourt-part-one{
+    width: 300px;
+    height: 250px;
+    margin-left: 5px;
+}
+.fourth-part-bg .fourth-part-containt .fotter .fourt-part-one .box-one{
+    width: 100%;
+    height: 200px;
+    background:#f1f1f1;
+    margin-top: 40px;
+    position: relative;
+}
+.fourth-part-bg .fourth-part-containt .fotter .fourt-part-one .box-one .image-one{
+    width: 78px;
+    height: 78px;
+    background: #f1f1f1;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: absolute;
+    top: -38px;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+.fourth-part-bg .fourth-part-containt .fotter .fourt-part-one .box-one .image-one .img-one{
+    background: #f1f1f1;
+    margin: 2px 2px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-left: 19px;
+    padding-right: 19px;
+    border: 2px solid #ffff;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-top: 2.7px;
+    margin-left: 2px;
+}
+/**ends**/
+.fourth-part-bg .fourth-part-containt .fotter .fourt-part-two{
+    width: 300px;
+    height: 250px;
+    margin-left: 30px;
+}
+.fourth-part-bg .fourth-part-containt .fotter .fourt-part-two .box-two{
+    width: 100%;
+    height: 200px;
+    background: #f1f1f1;
+    margin-top: 40px;
+    position: relative;
+}
+.fourth-part-bg .fourth-part-containt .fotter .fourt-part-two .box-two .image-two{
+    width: 78px;
+    height: 78px;
+    background: #f1f1f1;
+    border: 3px solid #ffff;
+    position: absolute;
+    border-radius: 50%;
+    top: -38px;
+    left: 50%;
+    transform: translateX(-50px);
+}
+.fourth-part-bg .fourth-part-containt .fotter .fourt-part-two .box-two .image-two .img-two{
+    background: #f1f1f1;
+    margin: 2px 2px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 15px;
+    padding-right: 14px;
+    border: 2px solid #ffff;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-top: 2.7px;
+    margin-left: 2px;
+
+}
+/** ends **/
+.fourth-part-bg .fourth-part-containt .fotter .fourt-part-three{
+    width: 300px;
+    height: 250px;
+    margin-left: 30px;
+}
+.fourth-part-bg .fourth-part-containt .fotter .fourt-part-three .box-three{
+    width: 100%;
+    height: 200px;
+    background: #f1f1f1;
+    margin-top: 40px;
+    position: relative;
+}
+.fourth-part-bg .fourth-part-containt .fotter .fourt-part-three .box-three .image-three{
+    width: 78px;
+    height: 78px;
+    background: #f1f1f1;
+    border: 3px solid #ffff;
+    position: absolute;
+    border-radius: 50%;
+    top: -38px;
+    left: 50%;
+    transform: translateX(-50px);
+}
+.fourth-part-bg .fourth-part-containt .fotter .fourt-part-three .box-three .image-three i{
+    font-size: 35px;
+    background: #f1f1f1;
+    margin: 2px 2px;
+    padding-top: 16.5px;
+    padding-bottom: 17px;
+    padding-left: 20.5px;
+    padding-right: 17px;
+    border: 2px solid #ffff;
+    border-radius: 50%;
+    box-sizing: border-box;
+    margin-top: 2.7px;
+    margin-left: 2px;
+
+}
+.fourth-part-bg .fourth-part-containt .fotter img{
+  
+}
+/** ends **/
+.fourth-part-bg .fourth-part-containt .fotter .write-one p{
+    text-align: justify;
+    padding: 10px;
+    padding-top: 60px;
+    line-height: 24px;
+    color: #353535;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+.fourth-part-bg .fourth-part-containt .fotter .write-one span{
+    padding-left: 70px;
+}
+/** fourth-part-bg **/
+
+.about-bg{
+    background: #ffff;
+}
+.about-bg .about-us{
+    height: 500px;
+    display: flex;
+}
+.about-bg .about-us .text{
+    width: 450px;
+    height: 100%;
+}
+.about-bg .about-us .text h2{
+    margin-top: 120px;
+    margin-bottom: 20px;
+    font-size: 26px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: cornflowerblue;
+}
+.about-bg .about-us .text p{
+    padding-right: 10px;
+    line-height: 18px;
+    text-align: justify;
+    font-size: 13px;
+    font-weight: 400px;
+    font-family: 'Open Sans', sans-serif;
+    color: #c10000;
+}
+.about-bg .about-us .image{
+    width: 520px;
+    height: 100%;
+}
+.about-bg .about-us .image .pictur{
+    margin-top: 90px;
+    margin-left: 50px;
+}
+/** about-bg ends **/
+.six-bg{
+    background: #fff;
+}
+.six-bg .six-content{
+    height: 400px;
+    display: flex;
+}
+.six-bg .six-content  .three-of-one{
+    width: 320px;
+    height: 100%;
+    margin-left: 5px;
+}
+.six-bg .six-content  .three-of-one h2{
+    text-align: center;
+    font-size: 24px;
+    color: #0b0b0b;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.six-bg .six-content  .three-of-one p{
+    text-align: center;
+    font-size: 15px;
+    color: #0b0b0b;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 24px;
+    margin-top: 20px;
+}
+.six-bg .six-content  .three-of-one .icon-1{
+
+    width: 90px;
+    height: 90px;
+    background: url(../image/Strict-image/two-color.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 140px;
+    margin-left: 115px;
+    margin-bottom: 30px;
+    display: flex;
+    position: relative;
+}
+.six-bg .six-content  .three-of-one .icon-1 a i{
+    font-size: 60px;
+    color: #f0fffff1;
+    line-height: 90px;
+    position: absolute;
+    left: 35px;
+}
+.six-bg .six-content  .three-of-one .icon-1 a i:hover{
+    color:  #d9d9d9;
+}
+/* three-of-one ends */
+
+.six-bg .six-content .three-of-two{
+    width: 320px;
+    height: 100%;
+}
+.six-bg .six-content  .three-of-two h2{
+    text-align: center;
+    font-size: 24px;
+    color: #0b0b0b;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.six-bg .six-content  .three-of-two p{
+    text-align: center;
+    font-size: 15px;
+    color: #0b0b0b;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 24px;
+    margin-top: 20px;
+}
+.six-bg .six-content  .three-of-two .icon-2{
+    width: 90px;
+    height: 90px;
+    background: url(../image/Strict-image/two-color.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 140px;
+    margin-left: 115px;
+    margin-bottom: 30px;
+    display: flex;
+    position: relative;
+}
+.six-bg .six-content  .three-of-two .icon-2 a i{
+    font-size: 40px;
+    color: #f0fffff1;
+    line-height: 90px;
+    position: absolute;
+    left: 22px;
+}
+.six-bg .six-content  .three-of-two .icon-2 a i:hover{
+    color:  #d9d9d9;
+}
+/* three-of-two ends */
+.six-bg .six-content .three-of-three{
+    width: 320px;
+    height: 100%;
+}
+.six-bg .six-content  .three-of-three h2{
+    text-align: center;
+    font-size: 24px;
+    color: #0b0b0b;
+    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+}
+.six-bg .six-content  .three-of-three p{
+    text-align: center;
+    font-size: 15px;
+    color: #0b0b0b;
+    font-weight: 400;
+    font-family: sans-serif;
+    line-height: 24px;
+    margin-top: 20px;
+}
+.six-bg .six-content  .three-of-three .icon-3{
+    width: 90px;
+    height: 90px;
+    background: url(../image/Strict-image/two-color.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 140px;
+    margin-left: 115px;
+    margin-bottom: 30px;
+    display: flex;
+    position: relative;
+}
+.six-bg .six-content  .three-of-three .icon-3 a i{
+    font-size: 50px;
+    color: #f0fffff1;
+    line-height: 90px;
+    position: absolute;
+    left: 30px;
+}
+.six-bg .six-content  .three-of-three .icon-3 a i:hover{
+    color:  #d9d9d9;
+}
+/* three-of-three ends */
+/** six-bg ends **/
+
+.bg-protfol{
+    background: #ffff;
+}
+.bg-protfol .protfol-content{
+    height: 700px;
+}
+.bg-protfol .protfol-content .our-protfol{
+    height: 150px;
+}
+.bg-protfol .protfol-content .our-protfol h2{
+    color: #353535;
+    font-size: 26px;
+    font-weight: 500px;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 30px;
+}
+.bg-protfol .protfol-content .our-protfol img{
+    margin-left: 400px;
+    margin-top: -13px;
+}
+/* o-p ends */
+
+.bg-protfol .protfol-content .section{
+    height: 550px;
+    display: flex;
+}
+.bg-protfol .protfol-content .section .section-one{
+    width: 220px;
+    height: 550px;
+}
+.bg-protfol .protfol-content .section .section-one .image-site-one .first-image{
+    width: 220px;
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+}
+.bg-protfol .protfol-content .section .section-one .image-site-one .first-image .hover-1st{
+    background: rgba(0, 0, 0,75%);
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+.bg-protfol .protfol-content .section .section-one .image-site-one .first-image:hover .hover-1st{
+    left: 0;
+    opacity: 10;
+}
+.bg-protfol .protfol-content .section .section-one .image-site-one .first-image:hover .hover-1st .small-content-1st{
+    width: 40px;
+    height: 40px;
+    background: #01cde0;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 90px;
+    margin-left: 90px;
+    border-radius: 5px;
+    transition: all linear 0.5s;
+}
+.bg-protfol .protfol-content .section .section-one .image-site-one .first-image:hover .hover-1st .small-content-1st:hover{
+    background: #0196a3;
+}
+.bg-protfol .protfol-content .section .section-one .image-site-two .second-image{
+    width: 220px;
+    height: 300px;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.bg-protfol .protfol-content .section .section-one .image-site-two .second-image .hover-2nd{
+    background: rgba(0, 0, 0,75%);
+    width: 220px;
+    height: 300px;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    transition: all linear 0.4s;
+    opacity: 0;
+}
+.bg-protfol .protfol-content .section .section-one .image-site-two .second-image:hover .hover-2nd{
+    left: 0;
+    opacity: 10;
+}
+.bg-protfol .protfol-content .section .section-one .image-site-two .second-image:hover .hover-2nd .small-content-2nd{
+    width: 40px;
+    height: 40px;
+    background: #01cde0;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 130px;
+    margin-left: 90px;
+    border-radius: 5px;
+    transition: all linear 0.5s;
+}
+.bg-protfol .protfol-content .section .section-one .image-site-two .second-image:hover .hover-2nd .small-content-2nd:hover{
+    background: #0196a3;
+}
+/* section-one ends */
+
+.bg-protfol .protfol-content .section .section-two{
+    width: 220px;
+    height: 550px;
+    margin-left: 30px;
+}
+.bg-protfol .protfol-content .section .section-two .image-site-three .third-image{
+    width: 220px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.bg-protfol .protfol-content .section .section-two .image-site-three .third-image .hover-2nd{
+    background: rgba(0, 0, 0,75%);
+    height: 300px;
+    width: 220px;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+.bg-protfol .protfol-content .section .section-two .image-site-three .third-image:hover .hover-2nd{
+    left: 0;
+    opacity: 10;
+}
+.bg-protfol .protfol-content .section .section-two .image-site-three .third-image:hover .hover-2nd
+.small-content-2nd{
+    width: 40px;
+    height: 40px;
+    background: #01cde0;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 130px;
+    margin-left: 90px;
+    border-radius: 5px;
+    transition: all linear 0.5s;
+}
+.bg-protfol .protfol-content .section .section-two .image-site-three .third-image:hover .hover-2nd
+.small-content-2nd:hover{
+    background: #0196a3;
+}
+.bg-protfol .protfol-content .section .section-two .image-site-four .four-image{
+    width: 220px;
+    height: 220px;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.bg-protfol .protfol-content .section .section-two .image-site-four .four-image .hover-1st{
+    background: rgba(0, 0, 0,75%);
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    transition: all linear 0.4s;
+    opacity: 0;
+}
+.bg-protfol .protfol-content .section .section-two .image-site-four .four-image:hover .hover-1st{
+    left: 0;
+    opacity: 10;
+}
+.bg-protfol .protfol-content .section .section-two .image-site-four .four-image:hover .hover-1st 
+.small-content-1st{
+    width: 40px;
+    height: 40px;
+    background: #01cde0;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 90px;
+    margin-left: 90px;
+    border-radius: 5px;
+    transition: all linear 0.5s;
+}
+.bg-protfol .protfol-content .section .section-two .image-site-four .four-image:hover .hover-1st 
+.small-content-1st:hover{
+    background: #0196a3;
+}
+/* section-two */
+.bg-protfol .protfol-content .section .section-three{
+    width: 220px;
+    height: 550px;
+    margin-left: 30px;
+}
+.bg-protfol .protfol-content .section .section-three .image-site-five .five-image{
+    width: 220px;
+    height: 220px;
+    position: relative;
+    overflow: hidden;
+}
+.bg-protfol .protfol-content .section .section-three .image-site-five .five-image .hover-1st{
+    background: rgba(0, 0, 0,75%);
+    height: 220px;
+    width: 220px;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+.bg-protfol .protfol-content .section .section-three .image-site-five .five-image:hover .hover-1st{
+    left: 0;
+    opacity: 10;
+}
+.bg-protfol .protfol-content .section .section-three .image-site-five .five-image:hover .hover-1st .small-content-1st{
+    width: 40px;
+    height: 40px;
+    background: #01cde0;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 90px;
+    margin-left: 90px;
+    border-radius: 5px;
+    transition: all linear 0.5s;
+}
+.bg-protfol .protfol-content .section .section-three .image-site-five .five-image:hover .hover-1st .small-content-1st:hover{
+    background: #0196a3;
+}
+.bg-protfol .protfol-content .section .section-three .image-site-six .six-image{
+    width: 220px;
+    height: 300px;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.bg-protfol .protfol-content .section .section-three .image-site-six .six-image .hover-2nd{
+    background: rgba(0, 0, 0,75%);
+    width: 220px;
+    height: 300px;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    transition: all linear 0.4s;
+    opacity: 0;
+}
+.bg-protfol .protfol-content .section .section-three .image-site-six .six-image:hover .hover-2nd{
+    left: 0;
+    opacity: 10;
+}
+.bg-protfol .protfol-content .section .section-three .image-site-six .six-image:hover .hover-2nd .small-content-2nd{
+    width: 40px;
+    height: 40px;
+    background: #01cde0;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 130px;
+    margin-left: 90px;
+    border-radius: 5px;
+    transition: all linear 0.5s;
+}
+.bg-protfol .protfol-content .section .section-three .image-site-six .six-image:hover .hover-2nd .small-content-2nd:hover{
+    background: #0196a3;
+}
+/* section-three */
+.bg-protfol .protfol-content .section .section-four{
+    width: 220px;
+    height: 550px;
+    margin-left: 30px;
+}
+.bg-protfol .protfol-content .section .section-four .image-site-seven .seven-image{
+    width: 220px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+}
+.bg-protfol .protfol-content .section .section-four .image-site-seven .seven-image .hover-2nd{
+    background: rgba(0, 0, 0,75%);
+    height: 300px;
+    width: 220px;
+    position: absolute;
+    top: 0;
+    left: -100%;
+    opacity: 0;
+    transition: all linear 0.4s;
+}
+.bg-protfol .protfol-content .section .section-four .image-site-seven .seven-image:hover .hover-2nd{
+    left: 0;
+    opacity: 10;
+}
+.bg-protfol .protfol-content .section .section-four .image-site-seven .seven-image:hover .hover-2nd .small-content-2nd{
+    width: 40px;
+    height: 40px;
+    background: #01cde0;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 130px;
+    margin-left: 90px;
+    border-radius: 5px;
+    transition: all linear 0.5s;
+}
+.bg-protfol .protfol-content .section .section-four .image-site-seven .seven-image:hover .hover-2nd .small-content-2nd:hover{
+    background: #0196a3;
+}
+.bg-protfol .protfol-content .section .section-four .image-site-eight .eight-image{
+    width: 220px;
+    height: 220px;
+    margin-top: 30px;
+    position: relative;
+    overflow: hidden;
+}
+.bg-protfol .protfol-content .section .section-four .image-site-eight .eight-image .hover-1st{
+    background: rgba(0, 0, 0,75%);
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    transition: all linear 0.4s;
+    opacity: 0;
+}
+.bg-protfol .protfol-content .section .section-four .image-site-eight .eight-image:hover .hover-1st{
+    left: 0;
+    opacity: 10;
+}
+.bg-protfol .protfol-content .section .section-four .image-site-eight .eight-image:hover .hover-1st .small-content-1st{
+    width: 40px;
+    height: 40px;
+    background: #01cde0;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 90px;
+    margin-left: 90px;
+    border-radius: 5px;
+    transition: all linear 0.5s;
+}
+.bg-protfol .protfol-content .section .section-four .image-site-eight .eight-image:hover .hover-1st .small-content-1st:hover{
+    background: #0196a3;
+}
+/* section-four */
